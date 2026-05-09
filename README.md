@@ -42,6 +42,8 @@ Use this secret while registering a new admin account:
 ujjusec
 ```
 
+## Note
+For testing Admin and Member accounts simultaneously, please use different browsers or an incognito window because authentication state is stored in browser localStorage.
 ---
 
 # Features
