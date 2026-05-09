@@ -39,7 +39,7 @@ Password: member123
 Use this secret while registering a new admin account:
 
 ```text id="03b7xw"
-ethara_admin_2026
+ujjusec
 ```
 
 ---
