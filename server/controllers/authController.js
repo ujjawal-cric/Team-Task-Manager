@@ -65,20 +65,21 @@ const registerUser = asyncHandler(
 
     let userRole = "member";
 
-    // ADMIN ACCESS ONLY WITH SECRET
     if (role === "admin") {
-  if (
-    adminSecret !==
-    process.env.ADMIN_SECRET
-  ) {
-    return res.status(401).json({
-      message:
-        "Invalid admin secret key",
-    });
-  }
+      if (
+        adminSecret !==
+        process.env.ADMIN_SECRET
+      ) {
+        res.status(401);
 
-  finalRole = "admin";
-}
+        throw new Error(
+          "Invalid admin secret key"
+        );
+      }
+
+      finalRole = "admin";
+    }
+
     const user =
       await User.create({
         name,
