@@ -137,7 +137,7 @@ ujjusec
 
 ## Deployment
 
-* Frontend: Vercel
+* Frontend: Railway
 * Backend: Railway
 * Database: MongoDB Atlas
 
