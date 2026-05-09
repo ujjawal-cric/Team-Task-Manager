@@ -22,14 +22,14 @@ https://team-task-manager-production-300d.up.railway.app
 
 ## Admin Account
 
-```text id="uhp8sk"
+```text 
 Email: admin@test.com
 Password: admin123
 ```
 
 ## Member Account
 
-```text id="i9n5cf"
+```text 
 Email: member@test.com
 Password: member123
 ```
@@ -38,7 +38,7 @@ Password: member123
 
 Use this secret while registering a new admin account:
 
-```text id="03b7xw"
+```text 
 ujjusec
 ```
 
@@ -148,7 +148,7 @@ For testing Admin and Member accounts simultaneously, please use different brows
 
 # Folder Structure
 
-```bash id="2w5k3n"
+```bash 
 project-management-system/
 │
 ├── frontend/
@@ -213,7 +213,7 @@ project-management-system/
 
 ## Backend `.env`
 
-```env id="ecjlwm"
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -226,7 +226,7 @@ ADMIN_SECRET=your_admin_secret
 
 ## Clone Repository
 
-```bash id="j8r1mp"
+```bash 
 git clone https://github.com/ujjawal-cric/Team-Task-Manager
 ```
 
@@ -234,7 +234,7 @@ git clone https://github.com/ujjawal-cric/Team-Task-Manager
 
 # Backend Setup
 
-```bash id="g8k1wy"
+```bash 
 cd server
 npm install
 npm run dev
@@ -244,7 +244,7 @@ npm run dev
 
 # Frontend Setup
 
-```bash id="y4j0lv"
+```bash 
 cd frontend
 npm install
 npm run dev
@@ -265,7 +265,7 @@ npm run dev
 
 ---
 
-# Frontend Deployment 
+# Frontend Deployment(Railway) 
 
 1. Import GitHub Repository
 2. Set Root Directory = `frontend`
