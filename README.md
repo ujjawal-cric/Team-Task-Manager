@@ -10,11 +10,11 @@ Built as part of the Ethara.AI Full-Stack Assessment.
 
 ## Frontend
 
-Add your Vercel frontend URL here
+https://team-task-manager-production-abe3.up.railway.app
 
 ## Backend API
 
-Add your Railway backend URL here
+https://team-task-manager-production-300d.up.railway.app
 
 ---
 
