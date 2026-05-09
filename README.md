@@ -224,7 +224,7 @@ ADMIN_SECRET=your_admin_secret
 ## Clone Repository
 
 ```bash id="j8r1mp"
-git clone https://github.com/your-username/project-management-system.git
+git clone https://github.com/ujjawal-cric/Team-Task-Manager
 ```
 
 ---
@@ -262,7 +262,7 @@ npm run dev
 
 ---
 
-# Frontend Deployment (Vercel)
+# Frontend Deployment 
 
 1. Import GitHub Repository
 2. Set Root Directory = `frontend`
